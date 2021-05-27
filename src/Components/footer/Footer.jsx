@@ -1,19 +1,20 @@
 import React from "react";
 import "./footer.css";
-
+import ContactForm from "./ContactForm";
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-info">
-        <h1>Contact me</h1>
-        <p>form1</p>
+        <ContactForm />
       </div>
       <div className="footer-contact">
         <h3>form2</h3>
         <p></p>
       </div>
       <div className="footer-sns">
-        <div className="design-by">Design by Aranguren Lucas</div>
+        <div className="design-by">
+          Developed and designed by Aranguren Lucas
+        </div>
         <div className="sns-links">
           <a
             href="https://www.linkedin.com/in/arangurenlucas/"

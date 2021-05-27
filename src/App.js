@@ -6,6 +6,7 @@ import About from "./Components/about/About";
 import Slider from "./Components/slider/Slider";
 import Info from "./Components/info/Info";
 import Footer from "./Components/footer/Footer";
+
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
 

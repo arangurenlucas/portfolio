@@ -33,7 +33,8 @@ export default function Slider() {
                 options: {
                   numberOfSlides: 1,
                 },
-              },'infinite'
+              },
+              "infinite",
             ],
             itemWidth: 300,
           },
