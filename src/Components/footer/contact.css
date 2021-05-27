@@ -1,0 +1,49 @@
+label {
+  color: black;
+  display: flex;
+  font-size: 35px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > input,
+textarea {
+  background: none;
+  margin: 0;
+  border-radius: 5px;
+  outline: 0;
+  border: groove #17464b;
+  border-width: 2px;
+  font-size: 25px;
+}
+textarea {
+  resize: none;
+  font-size: 20px;
+}
+
+button {
+  background-color: #17464b;
+  outline: 0;
+  border: groove #264245;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 960px) {
+  form {
+    width: 100%;
+  }
+  label {
+    font-size: 15px;
+  }
+  form > input,
+  textarea {
+    font-size: 15px;
+  }
+  p{
+      font-size: 30px;
+  }
+}

@@ -7,10 +7,7 @@ export default function Footer() {
       <div className="footer-info">
         <ContactForm />
       </div>
-      <div className="footer-contact">
-        <h3>form2</h3>
-        <p></p>
-      </div>
+
       <div className="footer-sns">
         <div className="design-by">
           Developed and designed by Aranguren Lucas
